@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17151d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>ZEN</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/splash.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="splash" class="splash">
+  <div class="splash-card">
+    <img src="assets/splash.png" alt="" class="splash-bg">
+    <div class="splash-spinner"></div>
+  </div>
+</div>
+
+<div class="app" id="app">
+  <main id="view" class="view"></main>
+</div>
+
+<input id="bgPicker" type="file" accept="image/*" hidden>
+<input id="projectPhotoPicker" type="file" accept="image/*" hidden>
+
+<div id="toast" class="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
