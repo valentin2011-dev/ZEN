@@ -1,0 +1,17 @@
+{
+  "name": "ZEN",
+  "short_name": "ZEN",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#17151d",
+  "theme_color": "#17151d",
+  "description": "ZEN — notes, projects, motivation and a living watch.",
+  "icons": [
+    {
+      "src": "assets/splash.png",
+      "sizes": "483x783",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
